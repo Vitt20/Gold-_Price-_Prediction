@@ -169,7 +169,7 @@ print(pred)
 # In[ ]:
 # web app
 st.title('Gold Price Model')
-img= Image.open('img.jpeg)
+img= Image.open('img3.jpeg')
 st.image(img)
 st.subheader('Using randomforestregressor')
 st.write(score)                
