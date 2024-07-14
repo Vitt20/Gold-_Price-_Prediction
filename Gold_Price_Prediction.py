@@ -7,10 +7,12 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import steamlit as st
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
+from PIL import Image
 
 
 
@@ -165,7 +167,13 @@ print(pred)
 
 
 # In[ ]:
-
+# web app
+st.title('Gold Price Model')
+img= Image.open('img.jpeg)
+st.image(img)
+st.subheader('Using randomforestregressor')
+st.write(score)                
+                
 
 
 
